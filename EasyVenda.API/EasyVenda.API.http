@@ -1,0 +1,6 @@
+@_EasyVenda.API_HostAddress = http://localhost:5128
+
+GET {{_EasyVenda.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
