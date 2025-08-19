@@ -1,7 +1,7 @@
-# Sistemas Empresa 123Vendas
+# Sistemas Empresa EasyVenda
 
 ## Caso de Uso
-    O Sistema da empresa 123Vendas está dividido em domínios. Existem domínios específicos
+    O Sistema da empresa EasyVenda está dividido em domínios. Existem domínios específicos
     para gestão de Estoque, CRM (cliente) e Vendas. Você é um desenvolvedor do time de
     Vendas. Agora nós precisamos implementar um protótipo de API de vendas. Como
     trabalhamos com DDD, para referenciar entidades de outros domínios, nós fazemos uso do
@@ -62,7 +62,7 @@ A conexão com o banco de dados está configurada no arquivo `appsettings.json` 
 
 ```json
 "ConnectionStrings": {
-  "123Vendas": "Server=localhost\\SQLSERVER;Database=123Vendas;TrustServerCertificate=True;Trusted_Connection=True"
+  "EasyVenda": "Server=localhost\\SQLSERVER;Database=EasyVenda;TrustServerCertificate=True;Trusted_Connection=True"
 }
 ```
 
